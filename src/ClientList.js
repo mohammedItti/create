@@ -187,7 +187,7 @@ function ClientList({ ...props }) {
    <div className="logout">
    <span>Logout</span>
    </div>
-      <h2></h2>
+      {/* <h2></h2> */}
       <div className="filter-client">
       
         <input className="filter-by-name" id="filter-clients" type="text" placeholder="filter by name">
