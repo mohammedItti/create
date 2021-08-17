@@ -1,0 +1,55 @@
+const clients = [
+    { id: 1, 
+        firstName: "Reema",
+        lastName:"kh", 
+        email: "Reema@gmail.com",
+        position:"manager", 
+        program:"be the gange",
+        address:"2207 wickershame lane",
+        city: "Houston",
+        state: "TX",
+        zipCode:"78741", 
+        note:"email me on July 12" },
+    { id: 2, 
+        firstName: "Jacob",
+        lastName:"kh",  
+        email: "JAC@hmail.com",
+        position:"manager", 
+        program:"be the gange",
+        address:"2207 wickershame lane",
+        city: "Houston", 
+        state: "TX",  
+        zipCode:"78741", 
+        note:",email me on July 12" },
+    { id: 3, 
+        firstName: "Dived",
+        lastName:"kh",  
+        email: "Dived@gmail.com",
+        position:"manager", 
+        program:"be the gange",
+        address:"2207 wickershame lane",
+        city: "Houston", 
+        state: "TX", 
+        zipCode:"78741", 
+        note:"email me on July 12" },
+  ];
+  const data = [
+    { databaseId: 1,
+         name: "Technology", 
+         clients: [...clients] },
+    { databaseId: 2, 
+        name: "Education", 
+        clients: [...clients.slice(1)] },
+    {databaseId: 3,
+        name: "Independent Bussiness",
+        clients: [...clients]},
+    { databaseId: 4, 
+        name: "Music", 
+        clients: [...clients] },
+  ];
+  
+  
+  
+  export default data;
+  
+  
